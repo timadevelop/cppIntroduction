@@ -1,0 +1,1 @@
+# Some exercises in Visual Studio with cpp
