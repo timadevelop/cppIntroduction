@@ -10,16 +10,6 @@ fraction::fraction(int n = 1, int d = 1)
 }
 
 
-int gcd(int a, int b)
-{
-	if (a == b) return a;
-	while (a != 0 && b != 0)
-	{
-		if (a > b) a = a%b;
-		else if (b > a) b = b%a;
-	}
-	return a + b;
-}
 
 void fraction::reduce()
 {
@@ -50,11 +40,6 @@ fraction fraction::operator/(const fraction &b) const
 	fraction result(numerator*b.getDenominator(), denominator*b.getNumerator());
 	result.reduce();
 	return result;
-}
-
-int lcm(int a, int b)
-{
-	return a / gcd(a, b) *b;
 }
 
 fraction fraction::operator+(const fraction &b) const

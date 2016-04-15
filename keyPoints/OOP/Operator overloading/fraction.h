@@ -5,10 +5,23 @@ class fraction
 private:
 	int numerator;
 	int denominator;
+	int gcd(int a, int b) const
+	{
+		if (a == b) return a;
+		while (a != 0 && b != 0)
+		{
+			if (a > b) a = a%b;
+			else if (b > a) b = b%a;
+		}
+		return a + b;
+	}
+	int lcm(int a, int b) const
+	{
+		return a / gcd(a, b) *b;
+	}
+	void reduce();
 public:
 	fraction(int, int);
-
-	void reduce(); //
 
 
 	int getNumerator() const;

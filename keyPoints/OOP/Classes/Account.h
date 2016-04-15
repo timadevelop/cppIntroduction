@@ -129,8 +129,10 @@ namespace App
 			top = temp;
 		}
 
+		// there is very bad method
 		int Pop()
 		{
+			if (!top) throw ferror;
 			int deletedInteger = top->getValue();
 			stackElement *temp = top;
 			top = top->getDeeper();
@@ -142,6 +144,17 @@ namespace App
 		{
 			return !top;
 		}
+
+		~secondStack()
+		{
+			while (top != NULL)
+			{
+				stackElement *tmp = top;
+				top = top->getDeeper();
+				delete tmp;
+			}
+		}
+
 	};
 
 }

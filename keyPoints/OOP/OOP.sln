@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classes", "Classes\Classes.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Operator overloading", "Operator overloading\Operator overloading.vcxproj", "{1EF093FA-8156-487A-A2F6-703B6EA0A201}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructursAndInheritance", "ConstructursAndInheritance\ConstructursAndInheritance.vcxproj", "{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{1EF093FA-8156-487A-A2F6-703B6EA0A201}.Release|x64.Build.0 = Release|x64
 		{1EF093FA-8156-487A-A2F6-703B6EA0A201}.Release|x86.ActiveCfg = Release|Win32
 		{1EF093FA-8156-487A-A2F6-703B6EA0A201}.Release|x86.Build.0 = Release|Win32
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Debug|x64.ActiveCfg = Debug|x64
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Debug|x64.Build.0 = Debug|x64
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Debug|x86.Build.0 = Debug|Win32
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Release|x64.ActiveCfg = Release|x64
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Release|x64.Build.0 = Release|x64
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Release|x86.ActiveCfg = Release|Win32
+		{5FDB78A8-100A-4E2E-9867-2861DD4C4A27}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,6 +28,17 @@ int main()
 	{
 		std::cout << st.Pop() << " -> ";
 	}
+
+	for (int i = 0; i < 1000000; i++)
+	{
+		for (int j = 0; j < 100; j++)
+		{
+			secondStack s;
+			// won`t work (because *top is NULL.
+			//std::cout << s.Pop();
+		}
+	}
+
 	std::cout << "NULL" << std::endl;
 	system("pause");
 	return 0;
